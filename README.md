@@ -1,5 +1,5 @@
 # Machine Learning with Azure Databricks
-Collection of Machine Learning Examples for Azure Databricks
+Easy to get started collection of Machine Learning Examples in Azure Databricks
 
 ## Azure Databricks Reference Architecture - Machine Learning & Advanced Analytics
 
@@ -25,6 +25,9 @@ Collection of Machine Learning Examples for Azure Databricks
     - Databricks Connect: connect external tools with Azure databricks (IDEs, RStudio, Jupyter,...)
 
 ## Machine Learning & MLops Examples using Azure Databricks:
+To review example notebooks below in HTML format: https://joelcthomas.github.io/ml-azuredatabricks/  
+To reproduce in a notebook, see instructions below.
+
 - PyTorch on a single node with MNIST dataset
 - PyTorch, distributed with Horovod with MNIST dataset
 - Using MLflow to track hyperparameters, metrics, log models/artifacts in AzureML
