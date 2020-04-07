@@ -6,7 +6,9 @@ Easy to get started collection of Machine Learning Examples in Azure Databricks
 <img src="https://joelcthomas.github.io/ml-azuredatabricks/img/azure_databricks_reference_architecture.png" width="1300">
 
 ## Key Benefits:
+- Built for enterprise with security, reliability, and scalability
 - End to end integration from data access (ADLS, SQL DW, EventHub, Kafka, etc.), data prep, feature engineering, model building in single node or distributed, MLops with MLflow, integration with AzureML, Synapse, & other Azure services.
+- Delta Lake to set the data foundation with higher data quality, reliability and performance for downstream ML & AI use cases 
 - ML Runtime Optimizations
     - Reliable and secure distribution of open source ML frameworks
     - Packages and optimizes most common ML frameworks
