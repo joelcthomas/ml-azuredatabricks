@@ -1,5 +1,7 @@
 # Machine Learning with Azure Databricks
-Easy to get started collection of Machine Learning Examples in Azure Databricks
+Easy to get started collection of Machine Learning Examples in Azure Databricks  
+
+Example Notebooks: [HTML format](https://joelcthomas.github.io/ml-azuredatabricks/), [Github](https://github.com/joelcthomas/ml-azuredatabricks)  
 
 ## Azure Databricks Reference Architecture - Machine Learning & Advanced Analytics
 
