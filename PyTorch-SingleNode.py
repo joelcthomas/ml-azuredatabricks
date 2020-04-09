@@ -36,7 +36,7 @@
 
 # COMMAND ----------
 
-ws = azureml_workspace(auth_type = 'service_princpal')
+ws = azureml_workspace(auth_type = 'service_princpal') # If you don't have a service principal, use 'interactive' for interactive login
 
 # COMMAND ----------
 
@@ -92,8 +92,6 @@ setattr(args, 'seed', 1)
 setattr(args, 'log_interval', 50)
 setattr(args, 'save_model', True)
 setattr(args, 'distributed_training', False)
-
-NODE_COUNT = 2 # Number of nodes in the cluster
 
 MODEL_VISUALIZE_LOC = '/tmp/mnist_nn_model'
 MODEL_SAVE_PATH = 'pytorchmodel'
@@ -307,10 +305,6 @@ displayHTML('''<img src="files'''+MODEL_VISUALIZE_LOC+'''.svg">''')
 # COMMAND ----------
 
 webservice = azureml_build_deploy(runid, ws, 'pytorch-mnist', 'pytorch-mnist-img', 'pytorch-aci-deploy')
-
-# COMMAND ----------
-
-webservice
 
 # COMMAND ----------
 

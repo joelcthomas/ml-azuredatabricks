@@ -5,6 +5,6 @@ subscription_id = ""
 resource_group = ""                       
 workspace_name = ""                         
 
-tenant_id = ""
-sp_id = ""
-sp_secret = ""
+tenant_id = "" # Tenant ID
+sp_id = "" # Service Principal ID
+sp_secret = "" # Service Principal Secret

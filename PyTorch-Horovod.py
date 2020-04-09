@@ -36,7 +36,7 @@
 
 # COMMAND ----------
 
-ws = azureml_workspace(auth_type = 'service_princpal')
+ws = azureml_workspace(auth_type = 'service_princpal') # If you don't have a service principal, use 'interactive' for interactive login
 
 # COMMAND ----------
 
@@ -319,7 +319,17 @@ with mlflow.start_run() as run:
 
 # COMMAND ----------
 
-# https://eastus2.azuredatabricks.net/files/joel/hvd-demo_timeline.json?o=984752964297111
+# MAGIC %md
+# MAGIC You can copy the file to the FileStore and download it to local machine. Files stored in /FileStore are accessible in your web browser.
+# MAGIC - First copy the generated hvd-demo_timeline.json file so it is accessible from /FileStore using command in the next cell  
+# MAGIC - Download the file by opening your browser to https://demo.cloud.databricks.com/files/hvd-demo/hvd-demo_timeline.json  
+# MAGIC - Open up Chrome Tracing via chrome://tracing  
+# MAGIC - Click on Load to open up the downloaded file to view the trace  
+
+# COMMAND ----------
+
+# Contents of `/FileStore/something` would be accessible at `https://{{region}}.azuredatabricks.net/files/something?o={{workspace_id}}
+# Example: https://eastus2.azuredatabricks.net/files/joel/hvd-demo_timeline.json?o=984752964297111
 dbutils.fs.cp(timeline_root, '/FileStore/joel/hvd-demo_timeline.json')
 
 # COMMAND ----------
