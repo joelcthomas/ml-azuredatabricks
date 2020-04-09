@@ -30,10 +30,10 @@ Easy to get started collection of Machine Learning Examples in Azure Databricks
 To review example notebooks below in HTML format: https://joelcthomas.github.io/ml-azuredatabricks/  
 To reproduce in a notebook, see instructions below.
 
-- PyTorch on a single node with MNIST dataset
-- PyTorch, distributed with Horovod with MNIST dataset
-- Using MLflow to track hyperparameters, metrics, log models/artifacts in AzureML
-- Using MLflow to deploy a scoing server (REST endpoint) with ACI  
+- [PyTorch on a single node with MNIST dataset](https://joelcthomas.github.io/ml-azuredatabricks/#PyTorch-SingleNode.html)
+- [PyTorch, distributed with Horovod with MNIST dataset](https://joelcthomas.github.io/ml-azuredatabricks/#PyTorch-Horovod.html)
+- [Using MLflow to track hyperparameters, metrics, log models/artifacts in AzureML](https://joelcthomas.github.io/ml-azuredatabricks/#PyTorch-SingleNode.html)
+- [Using MLflow to deploy a scoing server (REST endpoint) with ACI](https://joelcthomas.github.io/ml-azuredatabricks/#PyTorch-SingleNode.html)  
 
 adding soon:
 - Single node scikit-learn to distributed hyperparamter search using Hyperopt 
@@ -42,11 +42,21 @@ adding soon:
 - Using databricks automl-toolkit in Azure Databricks
 - Using automl from AzureML in Azure Databricks
 
-## Run:
-To reproduce examples provided here, please import attached `ml-azuredatabricks.dbc` file to databricks workspace.
+## MLflow
+[Overview of MLflow and its features](./mlflow.md)
+
+## How to run this example?
+To reproduce examples provided here, please import `ml-azuredatabricks.dbc` file in git root directory to databricks workspace.
 
 [Instructions on how to import notebooks in databricks](https://docs.microsoft.com/en-us/azure/databricks/notebooks/notebooks-manage#--import-a-notebook)
 
+## Setup Cluster
+Create a cluster - https://docs.microsoft.com/en-us/azure/databricks/clusters/create  
+GPU enabled Clusters - https://docs.microsoft.com/en-us/azure/databricks/clusters/gpu  
+Install a library/package - https://docs.microsoft.com/en-us/azure/databricks/libraries  
+Machine Learning Runtime - https://docs.microsoft.com/en-us/azure/databricks/runtime/mlruntime  
+To see list of already available package in each runtime - https://docs.microsoft.com/en-us/azure/databricks/release-notes/runtime/releases
 
+## Additional Information
 For more information on using Azure Databricks  
 https://docs.microsoft.com/en-us/azure/azure-databricks/
