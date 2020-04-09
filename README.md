@@ -37,12 +37,15 @@ To reproduce in a notebook, see instructions below.
 - [Using MLflow to track hyperparameters, metrics, log models/artifacts in AzureML](https://joelcthomas.github.io/ml-azuredatabricks/#PyTorch-SingleNode.html)
 - [Using MLflow to deploy a scoing server (REST endpoint) with ACI](https://joelcthomas.github.io/ml-azuredatabricks/#PyTorch-SingleNode.html)  
 
-adding soon:
+Adding soon:
 - Single node scikit-learn to distributed hyperparamter search using Hyperopt 
 - Single node pandas to distributed using Koalas
 - PandasUDF to distribute models over different subsets of data or hyperparameters
 - Using databricks automl-toolkit in Azure Databricks
 - Using automl from AzureML in Azure Databricks
+
+Other:
+- [Model Drift](https://github.com/joelcthomas/modeldrift)
 
 ## MLflow
 [Overview of MLflow and its features](./mlflow.md)
