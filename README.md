@@ -7,7 +7,7 @@ Advanced Example Notebooks: [HTML format](https://joelcthomas.github.io/ml-azure
 
 ## Azure Databricks Reference Architecture - Machine Learning & Advanced Analytics
 
-<img src="https://joelcthomas.github.io/ml-azuredatabricks/img/azure_databricks_reference_architecture.png" width="1300">
+<img src="docs/img/azure_databricks_reference_architecture.png" width="1300">
 
 ## Key Benefits:
 - Built for enterprise with security, reliability, and scalability
