@@ -1,7 +1,9 @@
 # Machine Learning with Azure Databricks
 Easy to get started collection of Machine Learning Examples in Azure Databricks  
 
-Example Notebooks: [HTML format](https://joelcthomas.github.io/ml-azuredatabricks/), [Github](https://github.com/joelcthomas/ml-azuredatabricks)  
+ML101 Example Notebooks: [HTML format](https://joelcthomas.github.io/ml-azuredatabricks/ml101.html), [Github](https://github.com/joelcthomas/ml-azuredatabricks/blob/master/ml101/ML_with_ADB_and_AML.py)
+
+Advanced Example Notebooks: [HTML format](https://joelcthomas.github.io/ml-azuredatabricks/), [Github](https://github.com/joelcthomas/ml-azuredatabricks)  
 
 ## Azure Databricks Reference Architecture - Machine Learning & Advanced Analytics
 
@@ -32,15 +34,17 @@ Example Notebooks: [HTML format](https://joelcthomas.github.io/ml-azuredatabrick
 To review example notebooks below in HTML format: https://joelcthomas.github.io/ml-azuredatabricks/  
 To reproduce in a notebook, see instructions below.
 
+- [ML101 example with Spark ML]()
+- [ML101 example with Scikit Learn]()
 - [PyTorch on a single node with MNIST dataset](https://joelcthomas.github.io/ml-azuredatabricks/#PyTorch-SingleNode.html)
 - [PyTorch, distributed with Horovod with MNIST dataset](https://joelcthomas.github.io/ml-azuredatabricks/#PyTorch-Horovod.html)
 - [Using MLflow to track hyperparameters, metrics, log models/artifacts in AzureML](https://joelcthomas.github.io/ml-azuredatabricks/#PyTorch-SingleNode.html)
 - [Using MLflow to deploy a scoing server (REST endpoint) with ACI](https://joelcthomas.github.io/ml-azuredatabricks/#PyTorch-SingleNode.html)  
+- [PandasUDF to distribute models over different subsets of data or hyperparameters]()
 
 Adding soon:
 - Single node scikit-learn to distributed hyperparamter search using Hyperopt 
 - Single node pandas to distributed using Koalas
-- PandasUDF to distribute models over different subsets of data or hyperparameters
 - Using databricks automl-toolkit in Azure Databricks
 - Using automl from AzureML in Azure Databricks
 
